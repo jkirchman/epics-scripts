@@ -19,7 +19,7 @@ Usage: synApps.sh <clone|fetch|status|stat|rebase>
 Note: this script needs to be called from the parent of the synApps directory.
 
 ### clone
-The **clone** argument will create a directory named "synApps" in the current working directory.  This directory name is hard-coded at the start of [synApps.sh](synApps.sh) and is easy to change.
+The **clone** argument will create a directory named "synApps" in the current working directory.  This directory name is hard-coded at the start of [synApps.sh](../synApps.sh) and is easy to change.
 
 The "master" branch of each synApps module's github repo will be checked out into the support directory.  If "wget" is on the PATH, the script will also download seq-2.2.3 and allenBradley-2.3.
 
